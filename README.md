@@ -85,19 +85,23 @@ Before you begin, ensure you have met the following requirements:
 ### Installation
 
 Follow these steps to set up the project locally:
+1. Download xampp and install in your PC
+   -Open xampp in your PC
+   -Start the Apache
+   -Start the MySql 
 
-
-1. **Navigate to the project directory:**
-    
+2. **Navigate to the project directory:**
+    -copy the unziped project folder into xampp htdocs folder
      cd online-food-ordering-system
 
-2. **Set up the database**
+3. **Set up the database**
+    -create a database named 'restaurant'
     - Import the SQL file `restaurant.sql` located in the root of the project into your MySQL database.
     - Update the database configuration in the `db_connection.php` file with your MySQL credentials
 
 ### Running The Application
     - To run the application locally, start your Apache server and navigate to the project directory in your browser:
-        http://localhost/online-food-ordering-system
+        http://localhost/online-food-ordering-system/index .php
         
        
 ## Access Instructions
@@ -146,7 +150,8 @@ Example registration details:
 After logging in, you can browse the menu, add items to your cart, place orders, and view your order history.
 
 ## Author
-
+Github account:SAM254-DEVELOPER
+https://github.com/SAM254-DEVELOPER/online-food-ordering-system
 - **[SAMUEL L. WABWIRE]**: Creator and developer of the Online Food Ordering System.
  
 
